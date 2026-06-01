@@ -1,38 +1,21 @@
-# === AI 도구 (업로드 제외) ===
+# 루트 공통 무시 규칙
+# (빌드 산출물/의존성 등 세부 규칙은 backend/.gitignore, frontend/.gitignore 가 담당)
+
+# === AI 도구 ===
 .claude/
 .cursor/
 .aider*
-CLAUDE.md
 
 # === 환경 변수 / 시크릿 ===
 .env
 .env.*
-*.local
 
-# === IntelliJ / IDE ===
+# === IDE ===
 .idea/
 *.iml
 *.iws
 *.ipr
 .vscode/
-
-# === 빌드 산출물 (안전망) ===
-# backend (Gradle)
-build/
-.gradle/
-out/
-# frontend (Node)
-node_modules/
-dist/
-dist-ssr/
-
-# === 로그 ===
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
 
 # === OS ===
 .DS_Store
