@@ -874,41 +874,7 @@ h2.wf-h2,
   display: grid;
   place-items: center;
   padding: 18px 0 8px;
-}
-
-.pentagon-svg {
   width: 100%;
-  max-width: 300px;
-  height: auto;
-  overflow: visible;
-}
-
-.pentagon-grid {
-  fill: none;
-  stroke: rgba(24, 26, 34, 0.12);
-  stroke-width: 1;
-}
-
-.pentagon-axis {
-  stroke: rgba(24, 26, 34, 0.1);
-  stroke-width: 1;
-}
-
-.pentagon-data {
-  fill: rgba(29, 185, 84, 0.22);
-  stroke: var(--green);
-  stroke-width: 2;
-  stroke-linejoin: round;
-}
-
-.pentagon-dot {
-  fill: var(--green-deep);
-}
-
-.pentagon-label {
-  fill: var(--ink-soft);
-  font-size: 11px;
-  font-weight: 800;
 }
 
 .genre-list {
