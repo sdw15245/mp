@@ -146,7 +146,7 @@ public class TestController {
         List<String> uris = body.get("uris") instanceof List<?> l
                 ? l.stream().map(String::valueOf).toList()
                 : List.of();
-        String name = body.get("name") == null ? "음악 캐릭터 추천" : body.get("name").toString();
+        String name = body.get("name") == null ? "추천곡 TOP5" : body.get("name").toString();
 
         String url = recommendationService.saveAsPlaylist(userId, name, uris);
         return Map.of("playlistUrl", url);
